@@ -1,0 +1,8 @@
+.btnblock{
+    display: block;
+    width: 100%;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+}

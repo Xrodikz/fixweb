@@ -1,0 +1,50 @@
+/* nav */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+body {
+    background-color: #EAEAEA;
+    font-family: 'Poppins', sans-serif;
+    color: #2D2D2D;
+    font-size: 14px;
+    margin: auto;
+}
+@media screen and (min-width: 994px){
+
+    .form-control{
+        width: 350px;
+    }
+}
+.carousel-item{
+    height: 30vh;
+    min-height: 300px;
+    background-size: cover;
+}
+.carousel-item::before{
+    object-fit: cover;
+    display: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #000;
+    opacity: 0.7;
+    
+}
+/* footer */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+.main-footer{
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: #111;
+    font-size: 14px;
+    color: white;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    position: absolute;
+    bottom: 0;
+    align-content: center;
+}
+
+
